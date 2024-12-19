@@ -1,7 +1,7 @@
 import React from "react"
 import "./Navbar.css"
-import { FaTelegram } from 'react-icons/fa';
 import BrandLogo from "../../assets/brand-logo.png"
+import Fatelegram from "../../assets/logos/telegram.svg"
 const Navbar = () => {
 
     function redirectToLogin() {
@@ -9,6 +9,9 @@ const Navbar = () => {
     }
     function redirectToRegister() {
         window.location.href = "https://xpulse.top/register";
+    }
+    function TelegramAdress() {
+        window.location.href = "https://t.me/xpulsesupport";
     }
 
     return (
@@ -26,8 +29,8 @@ const Navbar = () => {
                     </li>
                 </ul>
                 <div className="social-media">
-                    <a href="#">
-                        <FaTelegram />
+                    <a href="#" onClick={TelegramAdress}>
+                        <img src={Fatelegram} alt="" />
                     </a>
                 </div>
             </div>

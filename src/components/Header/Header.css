@@ -1,0 +1,25 @@
+.info-container{
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg , #4facfe , #9b59b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info-p{
+    font-size: 24px;
+    color: #9b59b6;
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #b0b0b0;
+}
