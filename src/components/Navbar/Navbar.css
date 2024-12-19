@@ -1,0 +1,30 @@
+nav {
+    background-color: #0c0c1d;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #6f9eff;
+    color: #6f9eff;
+}
+img{
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 50px;
+}
